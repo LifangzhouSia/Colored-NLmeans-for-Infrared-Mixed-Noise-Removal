@@ -19,7 +19,6 @@ end
 
 imgname = fullfile(pathstr, 'images', imglist(imnum).name);
 
-
 I = double( imread(imgname) );
 
 end

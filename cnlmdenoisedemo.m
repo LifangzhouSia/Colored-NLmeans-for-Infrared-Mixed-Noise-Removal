@@ -19,6 +19,8 @@ disp(' ');
 
 %% prompt user for image %%
 
+addpath('.\functions')
+
 im = readImage('cnlmdenoisedemo');
 
 %% generate noisy image %%
